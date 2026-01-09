@@ -1,0 +1,1 @@
+SELECT event_date,countIF(event_name='click_box_home') as click_boxe_home,countIF(event_name='click_header_menu') as click_header_menu,countIF(event_name='click_risorsa') as click_risorsa FROM `analystack.analytics_517838177.events_2025*` where event_name like 'click%' group by event_date

@@ -1,0 +1,1 @@
+SELECT distinct event_name FROM `analystack.analytics_517838177.events_202512*` 
