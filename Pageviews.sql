@@ -1,1 +1,1 @@
-select * FROM `analystack.analytics_517838177.events_202*` where event_name ="page_view"
+select * FROM `analystack.analytics_517838177.events_202*` where event_name = "page_view"
